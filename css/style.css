@@ -1,0 +1,72 @@
+/*ss重置样式  */
+body,div,i,a,p,span,b,input,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,dd,dt,textarea,img{margin:0;padding:0;}
+body{font-family: microsoft yahei;color:#333;}
+i,b{font-style: normal;}
+a{text-decoration:none;}
+img{vertical-align:top;width: 100%;}
+input,textarea,select,textarea,img,a{resize: none;outline: none;border: none;}
+li{list-style: none}
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+.clearfix:after{content: '';display: block;height:0;clear: both;font-size:0;*zoom:1}
+
+.inner{background: #f3f3f3;}
+ul{padding: 3%;}
+.main{position: relative;}
+.main a{display:block;position: absolute;left: 0%;top: 0%;width: 48%;height: 48%;}
+.main a:nth-of-type(1){left: 0%;top:0%;}
+.main a:nth-of-type(2){left: 52%;top:0%;}
+.main a:nth-of-type(3){left: 0%;top:48%;}
+.main a:nth-of-type(4){left: 52%;top:48%;}
+
+
+.device {height:160px;position: relative;}
+.swiper-container{height:160px;}
+/*.swiper-slide{height:160px;}*/
+.swiper-slide img{height:100%;}
+.swiper-active-switch {
+  background: #fff;
+}
+
+
+/首页点击进入页面css/
+.cash{position:relative;}
+.babc{position:relative;}
+.cash .incon{position:absolute;left:5%;top:3%;width: 50px;background:url(../images/jfan.png) no-repeat;background-size:100%;height:20px;background-size:95%;border: none;}
+.babc a{display:block;position:absolute;left: 50%;top:0%;width:25%;height:57%;margin-left: -54px;}
+
+.carer{position: relative;}
+.carer .incon{position: absolute;left:5%;top:2%;width: 50px;background:url(../images/jfan.png) no-repeat;background-size:100%;height:20px;background-size:95%;border: none;}
+.carer a{display: block;position: absolute;left: 50%;bottom: 3.5%;width: 25%;height: 5%;margin-left: -41px;}
+
+.novice{position: relative;}
+.novice .incon{position: absolute;left:5%;top:3%;width: 50px;background:url(../images/jfan.png) no-repeat;background-size:100%;height:20px;background-size:95%;border: none;}
+.novice a{display: block;position: absolute;left: 50%;bottom: 5.5%;width: 25%;height: 5%;margin-left: -41px;}
+
+.treasure{position: relative;}
+.treasure .incon{position: absolute;left:5%;top:3%;width: 50px;background:url(../images/jfan.png) no-repeat;background-size:100%;height:20px;background-size:95%;border: none;}
+.treasure a{display: block;position: absolute;left: 50%;bottom: 7.5%;width: 25%;height: 5%;margin-left: -41px;}
+
+
+/*banner的css*/
+.inrules{position: relative;}
+.inrules  .incon{position: absolute;left:3%;top:5.5%;width: 50px;background:url(../images/jfan.png) no-repeat;background-size:100%;height:20px;background-size:95%;border: none;}
+
+.ingold{position: relative;}
+.ingold  .incon{position: absolute;left:3%;top:5.5%;width: 50px;background:url(../images/jfan.png) no-repeat;background-size:100%;height:20px;background-size:95%;border: none;}
+
+.inInternet{position: relative;}
+.inInternet  .incon{position: absolute;left:3%;top:4.5%;width: 50px;background:url(../images/jfan.png) no-repeat;background-size:100%;height:20px;background-size:95%;border: none;}
+
+.inpassword{position: relative;}
+.inpassword  .incon{position: absolute;left:3%;top:5.5%;width: 50px;background:url(../images/jfan.png) no-repeat;background-size:100%;height:20px;background-size:95%;border: none;}
+
+
+
+
+
+
+
+
+
+
+
